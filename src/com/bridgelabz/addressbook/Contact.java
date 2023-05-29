@@ -8,7 +8,7 @@ public class Contact {
     private String city;
     private String state;
     private int zip;
-    private int phoneNumber;
+    private String phoneNumber;
     private String email;
 
     public String getFirstName() {
@@ -59,11 +59,11 @@ public class Contact {
         this.zip = zip;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
